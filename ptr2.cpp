@@ -3,9 +3,10 @@
 int *myfn(){
     int num = 100;
     int *ptr = &num;
-    int *ptr = new int;
+    //int *ptr = new int;
     *ptr = num;
     std::cout << "In the function : " << *ptr << std::endl;
+    return ptr;
 }
 
 int main()
